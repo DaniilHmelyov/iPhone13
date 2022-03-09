@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    line-height: 25px;
+}
+li{
+    list-style: none;
+}
+span{
+    margin-bottom: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin-top: 50px;
+    border: 2px solid #e01225;
+    border-radius: 20px;
+    max-width: 250px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: 230px;
+    background: #fff;
+    padding: 15px;
+    text-decoration: none;
+    transition: all 0.2s;
+
+}
+.card:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.card-promo__price{
+    margin-bottom: 10px;
+}
+.card__price-trust{
+    margin-bottom: 15px;
+}
+.card-promo__image img{
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.card-promo__bottom {
+    width: 100%;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.card__price-discount label {
+    font-size: 13px;
+    line-height: 19px;
+    font-style: normal;
+    background: #e01225;
+    padding: 0 6px;
+    text-align: center;
+    border-radius: 4px;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    white-space: nowrap;
+    color: white;
+}
+.card-tags{
+    margin-bottom: 10px;
+}
+/* .card-promo__footer p{
+    margin-bottom: 10px;
+} */
+.phone-name{
+    margin-bottom: 10px;
+}
+.card-tags__item_violet {
+    background: #825dc7;
+    margin-right: 10px;
+    padding: 3px 7px;
+    width: fit-content;
+    border-radius: 3px;
+    color: white;
+    margin-bottom: 10px;
+}
+.card__price-discount{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card__price-discount p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666;
+    text-decoration: line-through;
+    width: auto;
+    margin: 0 10px 0 0;
+}
+
+.button, button{
+    font-family: sans-serif;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #e01225;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    min-height: 46px;
+    padding: 5px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .2s;
+}
+.button:hover{
+    background-color: #c12231;
+}
+.card-price {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 29px;
+    width: 100%;
+    color: #0c061a;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
